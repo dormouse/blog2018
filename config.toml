@@ -1,0 +1,26 @@
+baseURL = "https://dormouse.github.io/"
+languageCode = "en-us"
+title = "Dormouse's Blog"
+theme = "robust"
+
+# googleAnalytics = "UA-XXXXXXXX-XX"
+# disqusShortname = "XYW"
+
+[params]
+  description = "Blog of Dromouse Young since 2018"
+  dateformat = "Jan 2, 2006" # Optional
+  # Fonts settings.
+  googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
+  fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
+  logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+
+[params.author]
+  thumbnail = "images/author.jpg"
+  name = "Dormouse Young"
+  description = "<p>Pythoner</p><p>AFOL</p>"
+  # facebook = "https://www.facebook.com/daisuke.tsuji.735"
+  # twitter = "https://twitter.com/dim0627"
+  github = "https://dormouse.github.io/"
+
+[outputs]
+page = [ "HTML", "AMP" ] # if you want AMP enable.
